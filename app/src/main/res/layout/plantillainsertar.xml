@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/titulo"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo" />
+
+    <EditText
+        android:id="@+id/descripcion"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:inputType="textMultiLine"
+        android:lines="3" />
+
+    <EditText
+        android:id="@+id/caducidad"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha caducidad"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/prioridad"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/prioridad" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">U3 - Practica 1- Oscar Ibañez</string>
+
+    <string-array name="prioridad">
+        <item>Normal</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+    <string name="title_activity_main2">Recordatorios</string>
+    <string name="title_activity_main3">Prestamos</string>
+</resources>
